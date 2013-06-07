@@ -15,6 +15,8 @@ sub travigate {
 
 Acme::Travigator - A new way for finding directions
 
-=method travigate
+=head1 METHODS
+
+=head2 travigate
 
 return directions to a random location

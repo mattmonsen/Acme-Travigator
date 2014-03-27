@@ -12,7 +12,13 @@ BEGIN {
 }
 
 sub travigate {
-    return "I am not sure where you want to go\n";
+    my @directions = (
+        "I am not sure where you want to go\n",
+        "These are not the droids you are looking for\n",
+        "What can you make of this?\n",
+    );
+    my $index = int(rand(@directions));
+    return $directions[$index];
 }
 
 1;
